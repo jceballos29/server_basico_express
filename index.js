@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
 
-const port = config.get('port') || 3000;
+const port = process.env.PORT || 3000;
 
 console.log('Application: ' + config.get('name'));
 console.log('BD server: ' + config.get('configDB.host'));

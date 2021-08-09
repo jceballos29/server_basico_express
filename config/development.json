@@ -1,6 +1,5 @@
 {
     "name": "Api Rest Expres - Development",
-    "port":5050,
     "configDB": {
         "host":"prueba-db-server"
     }
